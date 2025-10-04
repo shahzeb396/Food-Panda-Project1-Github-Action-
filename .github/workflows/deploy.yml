@@ -35,7 +35,7 @@ jobs:
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
-          name: Foodpanda
+          name:  Foodpanda website created by Shahzeb
           path: ./build
 
       - name: Deploy to GitHub Pages
