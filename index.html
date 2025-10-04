@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodpanda Pakistan - Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="brand-name">foodpanda</span>
+                        <span class="country">Pakistan</span>
+                    </div>
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#deals" class="nav-link">Deals</a></li>
+                        <li><a href="#restaurants" class="nav-link">Restaurants</a></li>
+                        <li><a href="#cities" class="nav-link">Cities</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="btn btn-login">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Log In
+                    </button>
+                    <button class="btn btn-primary btn-profile">
+                        <i class="fas fa-user"></i>
+                        Profile
+                    </button>
+                </div>
+
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">
+                        <i class="fas fa-bolt"></i>
+                        <span>Fast Delivery in 30 Minutes</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="title-line">Craving</span>
+                        <span class="title-line highlight">Something</span>
+                        <span class="title-line">Delicious?</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        Order from your favorite restaurants and get food delivered to your doorstep. 
+                        Enjoy exclusive deals and discounts every day!
+                    </p>
+
+                    <div class="search-container">
+                        <div class="search-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" placeholder="Enter your delivery address..." class="search-input">
+                            <button class="btn btn-primary search-btn">
+                                Find Food
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="500">0</div>
+                            <div class="stat-label">Restaurants</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="50">0</div>
+                            <div class="stat-label">Cities</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="10000">0</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="food-card pizza-card">
+                        <div class="card-badge">50% OFF</div>
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Pizza" class="food-image">
+                        <div class="card-content">
+                            <h3>Special Pizza Deal</h3>
+                            <p>Large pizza + drinks + garlic bread</p>
+                            <div class="price">
+                                <span class="original-price">Rs. 2,500</span>
+                                <span class="discount-price">Rs. 1,250</span>
+                            </div>
+                            <button class="btn btn-primary card-btn">
+                                Order Now
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-food">
+                        <div class="food-item burger">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Burger">
+                        </div>
+                        <div class="food-item fries">
+                            <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Fries">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section id="deals" class="deals-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hot Deals 🔥</h2>
+                <p class="section-subtitle">Don't miss out on these amazing offers</p>
+            </div>
+
+            <div class="deals-grid">
+                <div class="deal-card deal-featured">
+                    <div class="deal-badge">Most Popular</div>
+                    <div class="deal-content">
+                        <div class="deal-icon">
+                            <i class="fas fa-pizza-slice"></i>
+                        </div>
+                        <h3>Pizza Mania</h3>
+                        <p>Buy 1 Get 1 Free on all medium pizzas</p>
+                        <div class="deal-meta">
+                            <span class="deal-code">Code: PIZZABOGO</span>
+                            <span class="deal-time">Ends in 2 days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="deal-card">
+                    <div class="deal-content">
+                        <div class="deal-icon">
+                            <i class="fas fa-hamburger"></i>
+                        </div>
+                        <h3>Burger Fest</h3>
+                        <p>40% off on all burgers with free delivery</p>
+                        <div class="deal-meta">
+                            <span class="deal-code">Code: BURGER40</span>
+                            <span class="deal-time">Ends in 5 days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="deal-card">
+                    <div class="deal-content">
+                        <div class="deal-icon">
+                            <i class="fas fa-ice-cream"></i>
+                        </div>
+                        <h3>Sweet Treats</h3>
+                        <p>25% off on desserts and ice creams</p>
+                        <div class="deal-meta">
+                            <span class="deal-code">Code: SWEET25</span>
+                            <span class="deal-time">Ends in 3 days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="deal-card">
+                    <div class="deal-content">
+                        <div class="deal-icon">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                        <h3>Family Package</h3>
+                        <p>Special discount for family orders above Rs. 3,000</p>
+                        <div class="deal-meta">
+                            <span class="deal-code">Code: FAMILY30</span>
+                            <span class="deal-time">Ends in 7 days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section id="restaurants" class="restaurants-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular Restaurants</h2>
+                <p class="section-subtitle">Discover amazing food from top restaurants</p>
+            </div>
+
+            <div class="restaurants-grid">
+                <!-- Restaurant cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div class="logo-text">
+                                <span class="brand-name">foodpanda</span>
+                                <span class="country">Pakistan</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Delivering happiness to your doorstep. Order your favorite food from the best restaurants in town.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#deals">Deals</a></li>
+                        <li><a href="#restaurants">Restaurants</a></li>
+                        <li><a href="#cities">Cities</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Delivery Info</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Download App</h3>
+                    <div class="app-download">
+                        <button class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <div class="app-text">
+                                <span>Download on the</span>
+                                <strong>App Store</strong>
+                            </div>
+                        </button>
+                        <button class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <div class="app-text">
+                                <span>Get it on</span>
+                                <strong>Google Play</strong>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Foodpanda Pakistan. All rights reserved.</p>
+                <div class="creator-credit">
+                    Created with <i class="fas fa-heart"></i> by <span>Shahzeb</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
