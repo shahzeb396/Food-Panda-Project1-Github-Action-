@@ -31,7 +31,7 @@ jobs:
       pages: write
       id-token: write
     steps:
-     steps:
+    
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
@@ -43,20 +43,5 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           path: ./build
- notify:
-    runs-on: ubuntu-latest
-    needs: deploy
-    steps:
-      - name: Send Email Notification
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.SMTP_USERNAME }}
-          password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "Food-Panda Website Deployed Successfully"
-          to: shahzeboffical68@gmail.com
-          from: GitHub Actions <${{ secrets.SMTP_USERNAME }}>
-          body: |
-            Hello Shahzeb
-            Your static website has been successfully deployed to GitHub Pages!
+ 
+           
